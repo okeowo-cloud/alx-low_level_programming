@@ -12,3 +12,5 @@ Scripts Description:
 
 5-printf.c: program that prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line. must use function printf and program should return 0.
 
+6-size.c: Program prints the size of various types on the computer it is compiled and run on. Program return 0.
+
