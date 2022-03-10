@@ -14,3 +14,5 @@ Scripts Description:
 
 6-size.c: Program prints the size of various types on the computer it is compiled and run on. Program return 0.
 
+100-intel: Script generates the assembly code (Intel syntax) of a C code and save it in an output file.
+
