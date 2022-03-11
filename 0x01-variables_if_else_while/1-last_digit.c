@@ -16,27 +16,19 @@
  */
 int main(void)
 {
-	int n;
-
-	int lastDigit;
-
-	char output_greater_than_5[] = "Last digit of %d is %d and is greater than 5\n";
-
-	char output_equalto_zero[] = "Last digit of %d is %d and is 0\n";
-
-	char output_lessthan_6[] = "Last digit of %d is %d and is less than 6 and not 0\n";
+	int n, lastDigit;
 
 	n = rand() - RAND_MAX / 2;
 
 	lastDigit = n % 10;
 
+	printf("Last digit of %d is %d ", n, lastDigit);
+
 	if (lastDigit > 5)
-		printf(output_greater_than_5, n, lastDigit);
-	else
-		if (lastDigit == 0)
-			printf(output_equalto_zero, n, lastDigit);
-		else
-			if (lastDigit < 6 && lastDigit != 6)
-				printf(output_lessthan_6, n, lastDigit);
+		printf("and is greater than 5\n");
+	else if (lastDigit == 0)
+		printf("and is 0\n");
+	else if (lastDigit < 6 && lastDigit != 6)
+		printf("and is less than 6 and not 0\n");
 	return (0);
 }
