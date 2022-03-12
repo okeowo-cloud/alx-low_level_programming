@@ -22,3 +22,5 @@ Description of program files:
 
 100-print_comb3.c: prints all possible different combinations of two digits.
 
+101-print_comb4.c: Program prints all possible different combinations of three digits.
+
