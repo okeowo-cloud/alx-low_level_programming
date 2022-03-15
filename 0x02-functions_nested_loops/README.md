@@ -20,3 +20,5 @@ Description of programs:
 
 9-times_table.c: program prints the 9 times table, starting with 0.
 
+10-add.c: progran adds two integers and returns the result.
+
