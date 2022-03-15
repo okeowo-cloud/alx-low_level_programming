@@ -16,3 +16,5 @@ Description of programs:
 
 7-print_last_digit.c: program prints the last digit of a number.
 
+8-24_hours.c: program prints every minutes of the day of Jack Bauer, starting from 00:00 to 23:59.
+
