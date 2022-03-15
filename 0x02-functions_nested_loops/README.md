@@ -8,3 +8,5 @@ Description of programs:
 
 3-islower.c: program checks for lowercase character. return 1 if lowercase, 0 otherwise.
 
+4-isalpha.c: program checks for alphabetic character. return 1 is a letter(upper or lowercase), 0 otherwise.
+
