@@ -12,3 +12,5 @@ Description of programs:
 
 5-sign.c: program prints the sign of a number.
 
+6-abs.c: program computes the absolute value of an integer.
+
