@@ -6,3 +6,5 @@ Description of programs:
 
 2-print_alphabet_x10.c: program prints 10 times the alphabet, in lowercase, followed by a newline.
 
+3-islower.c: program checks for lowercase character. return 1 if lowercase, 0 otherwise.
+
