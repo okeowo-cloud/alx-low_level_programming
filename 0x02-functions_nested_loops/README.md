@@ -10,3 +10,5 @@ Description of programs:
 
 4-isalpha.c: program checks for alphabetic character. return 1 is a letter(upper or lowercase), 0 otherwise.
 
+5-sign.c: program prints the sign of a number.
+
