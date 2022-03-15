@@ -14,3 +14,5 @@ Description of programs:
 
 6-abs.c: program computes the absolute value of an integer.
 
+7-print_last_digit.c: program prints the last digit of a number.
+
