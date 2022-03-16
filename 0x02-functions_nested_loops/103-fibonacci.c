@@ -19,15 +19,13 @@ int main(void)
 		sum += t1;
 	else if (t2 % 2 == 0)
 		sum += t2;
-	while (sum <= 4000000)
+	while (nextTerm <= 4000000)
 	{
 		t1 = t2;
 		t2 = nextTerm;
 		nextTerm = t1 + t2;
-		if (t1 % 2 == 0)
-			sum += t1;
-		else if (t2 % 2 == 0)
-			sum += t2;
+		if (nextTerm % 2 == 0)
+			sum += nextTerm;
 	}
 
 	printf("%ld\n", sum);
