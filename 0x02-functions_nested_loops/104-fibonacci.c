@@ -15,7 +15,8 @@ int main(void)
 
 	int count;
 
-	for (count = 2; count < 98; count++)
+	printf("%lu, %lu, ", bck1, bck2);
+	for (count = 0; count < 98; count++)
 	{
 		if (bck1 + bck2 > LARGEST || fwd1 > 0 || fwd2 > 0)
 		{
