@@ -22,5 +22,5 @@ int main(void)
 		}
 		i++;
 	}
-	return (0);
+	return (sum);
 }
