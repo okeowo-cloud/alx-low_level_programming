@@ -7,8 +7,6 @@
  */
 int main(void)
 {
-	int i;
-
 	long sum = 0;
 
 	long t1 = 1;
