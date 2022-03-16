@@ -22,6 +22,7 @@ int main(void)
 			hd2 = (bck1 + bck2) / LARGEST;
 			hd1 = (bck1 + bck2) % LARGEST;
 			hd3 = fwd1 + fwd2 + hd2;
+			fwd1 = fwd2, fwd2 = hd3;
 			bck1 = bck2, bck2 = hd1;
 			printf("%lu010%lu", fwd2, bck2);
 		}
