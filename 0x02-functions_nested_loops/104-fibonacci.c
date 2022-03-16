@@ -20,17 +20,17 @@ int main(void)
 	{
 		if (bck1 + bck2 > LARGEST || fwd1 > 0 || fwd2 > 0)
 		{
-			hd2 = (bck1 + bck2) / LARGEST;
-			hd1 = (bck1 + bck2) % LARGEST;
-			hd3 = fwd1 + fwd2 + hd2;
+			hd1 = (bck1 + bck2) / LARGEST;
+			hd2 = (bck1 + bck2) % LARGEST;
+			hd3 = fwd1 + fwd2 + hd1;
 			fwd1 = fwd2, fwd2 = hd3;
-			bck1 = bck2, bck2 = hd1;
-			printf("%lu010%lu", fwd2, bck2);
+			bck1 = bck2, bck2 = hd2;
+			printf("%lu%010lu", fwd2, bck2);
 		}
 		else
 		{
-			hd1 = bck1 + bck2;
-			bck1 = bck2, bck2 = hd1;
+			hd2 = bck1 + bck2;
+			bck1 = bck2, bck2 = hd2;
 			printf("%lu", bck2);
 		}
 		if (count != 97)
