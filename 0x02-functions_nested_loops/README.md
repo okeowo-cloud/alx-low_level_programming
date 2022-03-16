@@ -28,3 +28,9 @@ Description of programs:
 
 101-natural.c: program prints the sum of all multiples of 3 or 5 below 1024(excluded) followed by a new line.
 
+102-fibonacci.c: program prints the first 50 Fibonacci numbers, starting with 1 and 2, followed by a new line.
+
+103-fibonacci.c: program prints the sum of even term in fibonacci series not greater than 4,000,000.
+
+104-fibonacci.c: program finds and prints the first 98 Fibonacci numbers, starting with 1 and 2, followed by a new line.
+
