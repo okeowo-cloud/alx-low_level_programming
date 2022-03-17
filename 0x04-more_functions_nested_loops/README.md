@@ -12,3 +12,5 @@ Description:
 
 5-more_numbers.c: program prints 10 times the numbers, from 0 to 14, followed by a new line.
 
+6-print_line.c: program draws a straight line in the terminal.
+
