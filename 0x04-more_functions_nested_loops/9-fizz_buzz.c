@@ -30,7 +30,14 @@ int main(void)
 		}
 		else
 		{
-			printf("%s\n", b);
+			if (i % 3 == 0)
+				printf("%s\n", f);
+			else if (i % 5 == 0)
+				printf("%s\n", b);
+			else if (i % 3 == 0 && i % 5 == 0)
+				printf("%s\n", fb);
+			else
+				printf("%d\n", i);
 		}
 	}
 	return (0);
