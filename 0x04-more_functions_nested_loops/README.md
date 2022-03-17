@@ -16,3 +16,5 @@ Description:
 
 7-print_diagonal.c: program draws a diagonal line on the terminal.
 
+8-print_square.c: program prints a square, followed by a new line.
+
