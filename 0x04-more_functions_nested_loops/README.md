@@ -6,3 +6,5 @@ Description:
 
 2-mul.c: program multiplies two integers.
 
+3-print_numbers.c: program prints the numbers, from 0 to 9, followed by a new line.
+
