@@ -22,3 +22,5 @@ Description:
 
 10-print_triangle.c: program prints a triangle, followed by a new line.
 
+100-prime_factor.c: program prints the largest prime factor of the number 612852475143, followed by a new line.
+
