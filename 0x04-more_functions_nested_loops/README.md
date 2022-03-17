@@ -4,3 +4,5 @@ Description:
 
 1-isdigit.c: program checks for a digit (0 through 9). Return 1 if c is digit, 0 otherwise.
 
+2-mul.c: program multiplies two integers.
+
