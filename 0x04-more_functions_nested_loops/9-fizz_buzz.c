@@ -11,7 +11,7 @@
 
 int main(void)
 {
-	char *f = "Fizz", *b = "Buzz", *fb = "FizzBuzz";
+	char *f = "Fizz", *b = "Buzz", *d = "FizzBuzz";
 
 	int i;
 
@@ -19,23 +19,23 @@ int main(void)
 	{
 		if (i < 100)
 		{
-			if (i % 3 == 0)
-				printf("%s ", f);
+			if (i % 3 == 0 && i % 5 == 0)
+				printf("%s ", d);
 			else if (i % 5 == 0)
 				printf("%s ", b);
-			else if (i % 3 == 0 && i % 5 == 0)
-				printf("%s ", fb);
+			else if (i % 3 == 0)
+				printf("%s ", f);
 			else
 				printf("%d ", i);
 		}
 		else
 		{
-			if (i % 3 == 0)
-				printf("%s\n", f);
+			if (i % 3 == 0 && i % 5 == 0)
+				printf("%s\n", d);
 			else if (i % 5 == 0)
 				printf("%s\n", b);
-			else if (i % 3 == 0 && i % 5 == 0)
-				printf("%s\n", fb);
+			else if (i % 3 == 0)
+				printf("%s\n", f);
 			else
 				printf("%d\n", i);
 		}
