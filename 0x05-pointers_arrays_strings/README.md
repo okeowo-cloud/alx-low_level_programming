@@ -4,3 +4,5 @@ Description:
 
 1-swap.c: program swaps the values of two integers.
 
+2-strlen.c: program returns the length of a string.
+
