@@ -6,3 +6,5 @@ Description:
 
 2-strlen.c: program returns the length of a string.
 
+3-puts.c: program prints a string followed by a new line to the std output.
+
