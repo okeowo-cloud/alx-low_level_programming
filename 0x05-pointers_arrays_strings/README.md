@@ -12,3 +12,5 @@ Description:
 
 5-rev_string.c: program reverses a string.
 
+6-puts2.c: program prints every other character of a string, starting with the first character, followed by a new line.
+
