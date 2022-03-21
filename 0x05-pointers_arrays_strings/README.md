@@ -10,3 +10,5 @@ Description:
 
 4-print_rev.c: program prints a string, in reverse, followed by a new line.
 
+5-rev_string.c: program reverses a string.
+
