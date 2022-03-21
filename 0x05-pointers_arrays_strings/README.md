@@ -8,3 +8,5 @@ Description:
 
 3-puts.c: program prints a string followed by a new line to the std output.
 
+4-print_rev.c: program prints a string, in reverse, followed by a new line.
+
