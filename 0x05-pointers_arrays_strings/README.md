@@ -16,3 +16,5 @@ Description:
 
 7-puts_half.c: program print the second half of the string.
 
+8-print_array.c: program prints n elements of an array of integers, followed by a new line.
+
