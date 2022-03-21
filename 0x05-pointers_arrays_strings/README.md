@@ -14,3 +14,5 @@ Description:
 
 6-puts2.c: program prints every other character of a string, starting with the first character, followed by a new line.
 
+7-puts_half.c: program print the second half of the string.
+
