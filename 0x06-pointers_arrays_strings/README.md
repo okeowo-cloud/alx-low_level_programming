@@ -8,3 +8,5 @@ Description
 
 3-strcmp.c: program compares two strings.
 
+4-rev_array.c: program reverses the content of an array of integers.
+
