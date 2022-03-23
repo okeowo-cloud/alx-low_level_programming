@@ -12,3 +12,5 @@ Description
 
 5-string_toupper.c: program changes all lowercase letters of a string to uppercase.
 
+6-cap_string.c: program capitalizes all words of a string.
+
