@@ -6,3 +6,5 @@ Description
 
 2-strncpy.c: program copies a string.
 
+3-strcmp.c: program compares two strings.
+
