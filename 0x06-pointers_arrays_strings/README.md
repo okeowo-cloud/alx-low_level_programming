@@ -14,3 +14,5 @@ Description
 
 6-cap_string.c: program capitalizes all words of a string.
 
+7-leet.c: program encodes a string into 1337.
+
