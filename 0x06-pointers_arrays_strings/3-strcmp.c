@@ -11,20 +11,14 @@ int _strcmp(char *s1, char *s2)
 {
 	int i = 0, result = 0;
 
-	unsigned long int a = 0, b = 0;
-
-	int j, k;
-
-	for (j = 0; s1[j] != '\0'; j++)
-		a += s1[j];
-
-	for (k = 0; s2[k] != '\0'; k++)
-		b += s2[k];
+	int a, b;
 
 	while (s1[i] != '\0' && s2[i] != '\0')
 	{
 		if (s1[i] != s2[i])
 		{
+			a = s1[i];
+			b = s2[i];
 			result = a - b;
 			break;
 		}
