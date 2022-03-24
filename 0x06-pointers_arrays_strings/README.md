@@ -20,3 +20,5 @@ Description
 
 101-print_number.c: program prints an integer.
 
+102-magic.c: program prints a[2] = 98, followed by a new line.
+
