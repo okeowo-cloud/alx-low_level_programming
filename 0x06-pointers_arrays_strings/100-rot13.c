@@ -8,26 +8,23 @@
 
 char *rot13(char *c)
 {
-	char a[27] = {'a', 'A', 'b', 'B', 'c', 'C', 'd', 'D', 'e', 'E', 'f',
-	 'F', 'g', 'G', 'h', 'H', 'i', 'I', 'j', 'J', 'k', 'K', 'l', 'L', 'm',
-	 'M'};
+	char a[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-	char b[27] = {'n', 'N', 'o', 'O', 'p', 'P', 'q', 'Q', 'r', 'R', 's',
-	 'S', 't', 'T', 'u', 'U', 'v', 'V', 'w', 'W', 'x', 'X', 'y', 'z',
-	 'Z'};
+	char b[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 
-	int i, j;
+	int i = 0, j;
 
-	for (i = 0; c[i] != '\0'; i++)
+	while (c[i] != '\0')
 	{
 		for (j = 0; a[j] != '\0'; j++)
 		{
 			if (c[i] == a[j])
+			{
 				c[i] = b[j];
-
-			else if (c[i] == b[j])
-				c[i] = a[j];
+				break;
+			}
 		}
+		i++;
 	}
 	return (c);
 }
