@@ -22,3 +22,5 @@ Description
 
 102-magic.c: program prints a[2] = 98, followed by a new line.
 
+103-infinite_add.c: program adds two numbers, n1 and n2 are the two numbers.
+
