@@ -2,7 +2,7 @@
 
 /**
  * _memcpy - function copies memory area.
- * @dest: pointer to destination 
+ * @dest: pointer to destination
  * @src: pointer to string
  * @n: is an integer.
  * Return: pointer to dest
