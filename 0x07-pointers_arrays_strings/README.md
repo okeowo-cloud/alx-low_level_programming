@@ -12,3 +12,5 @@ Description:
 
 5-strstr.c: program locates a substring.
 
+7-print_chessboard.c: program prints the chessboard.
+
