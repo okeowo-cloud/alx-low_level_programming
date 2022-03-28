@@ -14,3 +14,5 @@ Description:
 
 7-print_chessboard.c: program prints the chessboard.
 
+8-print_diagsums.c: program prints the sum of the two diagonals of a square matrix of integers.
+
