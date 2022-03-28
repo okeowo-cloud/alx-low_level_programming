@@ -8,3 +8,5 @@ Description:
 
 3-strspn.c: program gets the length of a prefix substring.
 
+4-strpbrk.c: program searches a string for any of a set of bytes.
+
