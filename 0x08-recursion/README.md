@@ -10,3 +10,5 @@ Description:
 
 4-pow_recursion.c: program returns the value of x raised to the power of y.
 
+5-sqrt_recursion.c: program returns the natural square root of a number.
+
