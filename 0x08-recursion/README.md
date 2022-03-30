@@ -14,3 +14,5 @@ Description:
 
 6-is_prime_number.c: program returns 1 if the input integer is a prime number, otherwise return 0.
 
+100-is_palindrome.c: program returns 1 if a string is a palindrome and 0 if not.
+
