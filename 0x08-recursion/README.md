@@ -4,3 +4,5 @@ Description:
 
 1-print_rev_recursion.c: program prints a string in reverse.
 
+2-strlen_recursion.c: program returns the length of a string.
+
