@@ -8,3 +8,5 @@ Description:
 
 3-factorial.c: program returns the factorial of a number.
 
+4-pow_recursion.c: program returns the value of x raised to the power of y.
+
