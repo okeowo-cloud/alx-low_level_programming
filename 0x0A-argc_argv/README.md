@@ -4,3 +4,5 @@ Description:
 
 1-args.c: program prints the number of arguments passed into it.
 
+2-args.c: program prints all arguments it receives.
+
