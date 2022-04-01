@@ -8,3 +8,5 @@ Description:
 
 3-mul.c: program multiplies two numbers.
 
+4-add.c: program adds positive numbers.
+
