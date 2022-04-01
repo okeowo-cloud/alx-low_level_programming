@@ -10,3 +10,5 @@ Description:
 
 4-add.c: program adds positive numbers.
 
+100-change.c: program prints the minimum number of coins to make change for an amount of money.
+
