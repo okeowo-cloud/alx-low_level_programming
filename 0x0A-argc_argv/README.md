@@ -6,3 +6,5 @@ Description:
 
 2-args.c: program prints all arguments it receives.
 
+3-mul.c: program multiplies two numbers.
+
