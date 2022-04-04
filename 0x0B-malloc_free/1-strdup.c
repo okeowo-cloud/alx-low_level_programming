@@ -24,12 +24,14 @@ char *_strdup(char *str)
 		i++;
 	}
 
-	s = malloc((sizeof(char) * counter) + 1);
+	counter++;
+
+	s = malloc(sizeof(char) * counter);
 
 	if (s == NULL)
 		return (NULL);
 
-	while (str[j] != '\0')
+	while (j < counter)
 	{
 		s[j] = str[j];
 		j++;
