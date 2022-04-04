@@ -13,16 +13,13 @@ char *_strdup(char *str)
 {
 	char *s;
 
-	int i, j, counter = 0;
+	int i, counter = 0;
 
 	if (str == NULL)
 		return (NULL);
 
-	while (str[i] != '\0')
-	{
-		counter++;
-		i++;
-	}
+	while (*(str + i))
+		counter++, i++;
 
 	counter++;
 
@@ -31,11 +28,12 @@ char *_strdup(char *str)
 	if (s == NULL)
 		return (NULL);
 
-	while (j < counter)
+	i = 0;
+
+	while (i < counter)
 	{
-		s[j] = str[j];
-		j++;
+		*(s + i) = *(str + i);
+		i++;
 	}
-	s[j] = '\0';
 	return (s);
 }
