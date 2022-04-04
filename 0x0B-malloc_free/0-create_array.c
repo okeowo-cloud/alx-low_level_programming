@@ -8,7 +8,6 @@
 * @c: is a char
 * Return: is a pointer
 */
-
 char *create_array(unsigned int size, char c)
 {
     char *s;
@@ -16,6 +15,11 @@ char *create_array(unsigned int size, char c)
     unsigned int i = 0;
 
     s = malloc(sizeof(char) * size);
+
+    if (s == NULL)
+    {
+        return (1);
+    }
 
     while (i < size)
     {
