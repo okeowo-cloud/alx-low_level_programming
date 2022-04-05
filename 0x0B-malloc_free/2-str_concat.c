@@ -15,18 +15,19 @@ char *str_concat(char *s1, char *s2)
 
 	char *concatedResult;
 
-	while (*(s1 + i) != '\0')
+	if (s1 == NULL)
+		s1 = "";
+
+	if (s2 == NULL)
+		s2 = "";
+
+	while (*(s1 + i))
 		len++, i++;
-
-	len++; /* for space between concatenated strings */
-
-	while (*(s2 + i) != '\0')
+	i = 0;
+	while (*(s2 + i))
 		len++, i++;
 
 	len++; /* for end of string char */
-
-	if (len == 0)
-		return (NULL);
 
 	concatedResult = malloc(sizeof(char) * len);
 
@@ -34,21 +35,16 @@ char *str_concat(char *s1, char *s2)
 		return (NULL);
 
 	i = 0;
-
 	while (*(s1 + i))
 	{
 		*(concatedResult + i) = *(s1 + i);
 		i++;
 	}
-
-	*(s1 + i) = ' ';
-
-	while (*(s2 + j))
+	while (i < len)
 	{
 		*(concatedResult + i) = *(s2 + j);
 		i++, j++;
 	}
-	*(concatedResult + i) = '\0';
 	return (concatedResult);
 
 }
