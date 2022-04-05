@@ -6,3 +6,5 @@ Description
 
 2-str_concat.c: program concatenates two strings.
 
+3-alloc_grid.c: program allocates memory and returns a pointer to a 2 dimensional array of integers.
+
