@@ -11,40 +11,37 @@
 
 char *str_concat(char *s1, char *s2)
 {
-	int i, j, len = 0;
+	char *concat;
 
-	char *concatedResult;
+	int i, j, len1, len2 = 0;
 
 	if (s1 == NULL)
 		s1 = "";
-
 	if (s2 == NULL)
 		s2 = "";
-
 	while (*(s1 + i))
-		len++, i++;
-	i = 0;
-	while (*(s2 + i))
-		len++, i++;
+		len1++, i++;
+	while (*(s2 + j))
+		len2++, j++;
+	len2++;
 
-	len++; /* for end of string char */
+	concat = malloc(sizeof(len1 + len2));
 
-	concatedResult = malloc(sizeof(char) * len);
-
-	if (concatedResult == NULL)
+	if (concat == NULL)
 		return (NULL);
 
-	i = 0;
-	while (*(s1 + i))
+	i, j = 0;
+	while (i < len1)
 	{
-		*(concatedResult + i) = *(s1 + i);
+		*(concat + i) = *(s1 + i);
 		i++;
 	}
-	while (i < len)
+	while (j < len2)
 	{
-		*(concatedResult + i) = *(s2 + j);
+		*(concat + i) = *(s2 + j);
 		i++, j++;
 	}
-	return (concatedResult);
+
+	return (concat);
 
 }
