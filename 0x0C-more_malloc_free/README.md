@@ -4,3 +4,5 @@ Description:
 
 1-string_nconcat.c: program concatenates two strings.
 
+2-calloc.c: program allocates memory for an array, using malloc.
+
