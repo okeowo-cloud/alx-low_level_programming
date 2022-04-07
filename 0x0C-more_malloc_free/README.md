@@ -6,3 +6,5 @@ Description:
 
 2-calloc.c: program allocates memory for an array, using malloc.
 
+3-array_range.c: program creates an array of integers.
+
