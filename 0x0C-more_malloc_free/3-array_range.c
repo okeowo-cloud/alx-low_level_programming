@@ -14,17 +14,17 @@ int *array_range(int min, int max)
 
 	int i, j, range;
 
-	if (min > max)
+	if (min > max) /* validate arguments */
 		return (NULL);
 
-	range = (max - min) + 1;
+	range = (max - min) + 1; /* size of array */
 
-	ptr = malloc(sizeof(int) * range);
+	ptr = malloc(sizeof(int) * range); /* allocate memory */
 
-	if (ptr == NULL)
+	if (ptr == NULL) /* validate memory was allocated or not */
 		return (NULL);
 
-	for (i = min, j = 0; i <= max; i++, j++)
+	for (i = min, j = 0; i <= max; i++, j++) /* assign from min to max */
 		ptr[j] = i;
 
 	return (ptr);
