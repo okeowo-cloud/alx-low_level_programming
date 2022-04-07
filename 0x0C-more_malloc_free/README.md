@@ -8,3 +8,5 @@ Description:
 
 3-array_range.c: program creates an array of integers.
 
+100-realloc.c: program reallocates a memory block using malloc and free.
+
