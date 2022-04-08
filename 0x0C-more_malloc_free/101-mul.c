@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include <ctype.h>
+#include "main.h"
 
 /**
  * main - function multiplies two positive numbers.
@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
 	{
 		for (j = 0; argv[i][j] != '\0'; j++)
 		{
-			if (isdigit(argv[i][j]) == 0)
+			if (argv[i][j] > 57 || argv[i][j] < 48)
 			{
 				printf("Error\n");
 				exit(98);
