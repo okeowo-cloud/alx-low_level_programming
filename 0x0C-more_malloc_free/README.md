@@ -10,3 +10,5 @@ Description:
 
 100-realloc.c: program reallocates a memory block using malloc and free.
 
+101-mul.c: program multiplies two command line arguments.
+
