@@ -8,3 +8,5 @@ dog.h: Program declares a struct called dog with fields name, age, owner.
 
 dog.h: Program define a new type dog_t as a new name for the type struct dog.
 
+5-free_dog.c: Program frees dogs.
+
