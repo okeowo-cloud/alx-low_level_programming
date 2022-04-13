@@ -6,3 +6,5 @@ Description:
 
 2-int_index.c: program searches for an integer.
 
+3-main.c: program that performs simple operations.
+
