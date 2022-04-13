@@ -4,3 +4,5 @@ Description:
 
 1-array_iterator.c: program executes a function given as a parameter on each element of an array.
 
+2-int_index.c: program searches for an integer.
+
