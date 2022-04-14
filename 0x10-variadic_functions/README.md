@@ -6,3 +6,5 @@ Description:
 
 2-print_strings.c: program prints strings, followed by a new line.
 
+3-print_all.c: program function that prints anything.
+
