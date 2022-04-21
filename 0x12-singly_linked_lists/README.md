@@ -6,3 +6,5 @@ Description:
 
 2-add_node.c: program adds a new node at the beginning of a list_t list.
 
+3-add_node_end.c: program adds a new node at the end of a list_t list.
+
