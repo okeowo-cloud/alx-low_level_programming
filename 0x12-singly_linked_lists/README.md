@@ -12,3 +12,5 @@ Description:
 
 100-first.c: program prints You're beat! and yet, you must allow,\nI bore my house upon my back!\n before the main function is executed.
 
+101-hello_holberton.asm: program prints Hello, Holberton, followed by a new line
+
