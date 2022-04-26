@@ -12,5 +12,7 @@ Description:
 
 5-free_listint2.c: program frees a listint_t list.
 
+7-get_nodeint.c: program returns the nth node of a listint_t linked list.
+
 8-sum_listint.c: program sum of all the data (n) of a listint_t linked list.
 
