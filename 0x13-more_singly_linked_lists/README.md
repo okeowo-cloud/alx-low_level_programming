@@ -20,3 +20,5 @@ Description:
 
 9-insert_nodeint.c: program inserts a new node at a given position.
 
+10-delete_nodeint.c: program deletes the node at index index of a listint_t linked list.
+
