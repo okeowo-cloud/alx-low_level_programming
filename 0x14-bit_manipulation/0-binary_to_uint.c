@@ -8,18 +8,16 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-    unsigned int result = 0, tmp, j, power = 1;
+    unsigned int result = 0, i = 0, tmp, j, power = 1;
 
     char c;
-
-    int i = 0;
 
     if (b == NULL)
         return (0);
 
     while (b[i] != '\0')
     {
-        c = b[i];
+        c = (const char) b[i];
         if (!isdigit(c))
             return (0);
         tmp = atoi(c);
