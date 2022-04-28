@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * clear_bit - function sets the value of a bit to 0 at a given index.
+ * set_bit - function sets the value of a bit to 0 at a given index.
  * @n: is a long
  * @index: is an int
  * Return: 1 id successful, 0 otherwise.
