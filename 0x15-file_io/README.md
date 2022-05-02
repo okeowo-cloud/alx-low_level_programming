@@ -4,3 +4,5 @@ Description:
 
 1-create_file.c: program creates a file.
 
+2-append_text_to_file.c: program appends text at the end of a file.
+
