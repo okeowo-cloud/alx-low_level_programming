@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _exit - function exit program with appropriate
+ * __exit - function exit program with appropriate
  * status and outputto POSIX standard error
  *
  * @s: pointer to filename
