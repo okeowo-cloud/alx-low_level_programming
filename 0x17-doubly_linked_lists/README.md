@@ -16,3 +16,5 @@
 
 7-insert_dnodeint.c: Program inserts a new node at a given position.
 
+8-delete_dnodeint.c: Program deletes the node at index index of a dlistint_t linked list.
+
