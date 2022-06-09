@@ -14,3 +14,5 @@
 
 6-sum_dlistint.c: Program returns the sum of all the data (n) of a dlistint_t linked list.
 
+7-insert_dnodeint.c: Program inserts a new node at a given position.
+
