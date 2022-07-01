@@ -8,3 +8,5 @@
 
 3-hash_table_set.c: Program adds an element to the hash table.
 
+4-hash_table_get.c: Program retrieves a value associated with a key.
+
