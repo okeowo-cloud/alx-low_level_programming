@@ -4,3 +4,4 @@
 
 1-djb2.c: Program Implements the djb2 Algorithm (Hash function)
 
+2-key_index.c: Program returns the index of a key
