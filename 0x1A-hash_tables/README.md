@@ -10,3 +10,5 @@
 
 4-hash_table_get.c: Program retrieves a value associated with a key.
 
+5-hash_table_print.c: Program prints a hash table.
+
