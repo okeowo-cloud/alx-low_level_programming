@@ -12,3 +12,5 @@
 
 5-hash_table_print.c: Program prints a hash table.
 
+6-hash_table_delete.c: Program deletes a hash table.
+
