@@ -14,3 +14,5 @@
 
 6-hash_table_delete.c: Program deletes a hash table.
 
+100-sorted_hash_table.c: Program implements a sorted hash table.
+
